@@ -21,4 +21,10 @@ const mapStateToProps = ({ cart: { cartItems } }) => ({
   cartItems
 });
 
+// const mapStateToProps = (state) => {
+//   const { cartItems } = state.cart;
+//   console.log(cartItems);
+//   return { cartItems };
+// };
+
 export default connect(mapStateToProps)(CartDropdown);
